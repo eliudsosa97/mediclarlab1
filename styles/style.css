@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+    font-family:"Bebas Neues", sans-serif;
+
+}
+#NavBar a {
+    font-size: 18px;
+    font-weight: semi-bold;
+    color: #9f2180;
+    
+    
+}
+#NavBar button {
+    font-size: 18px;
+    font-weight: bold;
+}
+#NavBar{
+    
+}
+#search {
+    border-radius: 20px;
+    border-color: #9f2180;
+
+}
