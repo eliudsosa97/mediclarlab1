@@ -15,8 +15,8 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
-#NavBar{
-    
+.carousel-inner{
+    max-height: 39rem;
 }
 #search {
     border-radius: 20px;
