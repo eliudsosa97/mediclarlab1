@@ -55,3 +55,20 @@ body {
     margin-left: 2rem;
     color: #9f2180;
  }
+ .inputs{
+  border: 0;
+  align-items: center;
+ }
+ .ph-center {
+  height: 40px;
+}
+.ph-center::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 50px;/* Centrado vertical */
+}
+
+.buttondrop{
+  border-radius: 20px;
+  border-color: #9f2180;
+  color:#9f2180;
+}

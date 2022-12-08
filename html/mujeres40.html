@@ -37,41 +37,45 @@
 <body>
     <!-- --------------------------------------------------------------------------------------------------- -->
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg my-4" style="background-color:white ;">
-      <div class="container">
-        <a class="logo" href="#"><img src="/assets/logos/MEDICLAR MORADO (1).png" width="170vh" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-flask-vial"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Todos nuestros estudios</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Servicios
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Servicio a domicilio</a></li>
-                <li><a class="dropdown-item" href="#">Servicio a empresas</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Ayuda</a></li>
-              </ul>
-            </li>
-            
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" id="search">
-            
-          </form>
-        </div>
+    <!-- CONTAINER DEL NAV -->
+    <div class="container-lg">
+      <!-- COL DE LA PARTE IZQUIERDA -->
+      <div class="row justify-content-center">
+          <div class="col-3">
+              <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;" id="NavBar">
+                  <div class="container-lg col-md-12">
+                      <a class="navbar-brand" href="/index.html">
+                          <img src="/assets/logos/MEDICLAR MORADO (1).png" alt="logo" width="150px">
+                      </a>
+                  </div>
+          </div>
+          <!-- COL DE LA PARTE CENTRAL -->
+          <div class="col-5"></div>
+
+          <!-- boton DE LA PARTE DERECHA -->
+
+          <div class="col-4 text-center justify-content-center">
+              <br>
+              <div class="dropdown">
+                  <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><input class="inputs ph-center" type="Buscar" name="Buscar" id="Buscar" placeholder="Buscar"></li>
+                    <li><a class="dropdown-item" href="#">Hombre 40</a></li>
+                    <li><a class="dropdown-item" href="#">Mujeres 40</a></li>
+                    <li><a class="dropdown-item" href="#">Industria Alimenticia</a></li>
+                    <li><a class="dropdown-item" href="#">Influenza Tipo A y B</a></li>
+                    <li><a class="dropdown-item" href="#">Renal</a></li>
+                    <li><a class="dropdown-item" href="#">Ginecológico</a></li>
+                    <li><a class="dropdown-item" href="#">Empresas</a></li>
+                    <li><a class="dropdown-item" href="#">Escolar</a></li>
+                  </ul>
+                </div>
+          </div>
+          </nav>
       </div>
-    </nav>
-    <!-- Fin nav bar -->
+  </div>
 
     <!-- ------------------------------------------------------------------------------------------------------ -->
     <div class="container text-center d-none d-xl-block">

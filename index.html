@@ -26,9 +26,9 @@
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="../assets/favicon/favicon.png" type="image/x-icon">
-    <!-- CDN font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    
+
+    <!-- SCRIPT SEARCH -->
+    <script src="/js/botonsearch.js"></script>
 </head>
 
 <!-- Fin del head -->
@@ -38,64 +38,79 @@
 <body>
     <!-- --------------------------------------------------------------------------------------------------- -->
     <!-- NavBar -->
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg my-4" style="background-color:white ;">
-        <div class="container">
-          <a class="logo" href="#"><img src="/assets/logos/MEDICLAR MORADO (1).png" width="170vh" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-flask-vial"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Todos nuestros estudios</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Servicios
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Servicio a domicilio</a></li>
-                  <li><a class="dropdown-item" href="#">Servicio a empresas</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Ayuda</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" id="search">
-              
-            </form>
-          </div>
+    <!-- CONTAINER DEL NAV -->
+    <div class="container-lg">
+        <!-- COL DE LA PARTE IZQUIERDA -->
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;" id="NavBar">
+                    <div class="container-lg col-md-12">
+                        <a class="navbar-brand" href="/index.html">
+                            <img src="/assets/logos/MEDICLAR MORADO (1).png" alt="logo" width="150px">
+                        </a>
+                    </div>
+            </div>
+            <!-- COL DE LA PARTE CENTRAL -->
+            <div class="col-5"></div>
+
+            <!-- boton DE LA PARTE DERECHA -->
+
+            <div class="col-4 text-center justify-content-center">
+                <br>
+                <div class="dropdown">
+                    <button class="btn buttondrop dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><input class="inputs ph-center" type="Buscar" name="Buscar" id="Buscar" placeholder="Buscar"></li>
+                      <li><a class="dropdown-item" href="#">Hombre 40</a></li>
+                      <li><a class="dropdown-item" href="#">Mujeres 40</a></li>
+                      <li><a class="dropdown-item" href="#">Industria Alimenticia</a></li>
+                      <li><a class="dropdown-item" href="#">Influenza Tipo A y B</a></li>
+                      <li><a class="dropdown-item" href="#">Renal</a></li>
+                      <li><a class="dropdown-item" href="#">Ginecológico</a></li>
+                      <li><a class="dropdown-item" href="#">Empresas</a></li>
+                      <li><a class="dropdown-item" href="#">Escolar</a></li>
+                    </ul>
+                  </div>
+            </div>
+            </nav>
         </div>
-      </nav>
-      <!-- Fin nav bar -->
+    </div>
+    <!-- Fin nav bar -->
 
     <!-- ------------------------------------------------------------------------------------------------------ -->
 
     <!-- Iconos -->
     <div class="container text-center">
         <div class="row row-cols-10 my-4">
-            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a><p><br> Check-Up <br> Hombres +40</p></div>
-            <div class="col d-none d-lg-block"><a href="/html/mujeres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a><p> <br> Check-Up <br> Mujeres +40</p></div>
-            <div class="col d-none d-lg-block"><a href="/html/indAlimentaria.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a><p><br>Check-Up <br>Ind Alimentaria</p></div>
-            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a></div>
-            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a></div>
-            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a></div>
-            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a></div>
-            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a></div>
+            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 10H40.png" width="90px" alt=""></a></div>
+            <div class="col d-none d-lg-block"><a href="/html/mujeres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 11M40.png" width="90px" alt=""></a></div>
+            <div class="col d-none d-lg-block"><a href="/html/indAlimentaria.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 9ALIMEN.png" width="90px" alt=""></a></div>
+            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 1INFLUENZA.png" width="90px" alt=""></a></div>
+            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 3RENAL.png" width="90px" alt=""></a></div>
+            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 2GINECOLOGICO.png" width="90px" alt=""></a></div>
+            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 6EMPRESAS.png" width="90px" alt=""></a></div>
+            <div class="col d-none d-lg-block"><a href="/html/Hombres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 7ESCOLAR.png" width="90px" alt=""></a></div>
         </div>
     </div>
 
     <div class="container text-center">
         <div class="row row-cols-10 my-4">
-            <div class="col d-lg-none"><a href="/html/Hombres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a><p><br> Check-Up <br> Hombres +40</p></div>
-            <div class="col d-lg-none"><a href="/html/mujeres40.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a><p> <br> Check-Up <br> Mujeres +40</p></div>
-            <div class="col d-lg-none"><a href="/html/indAlimentaria.html"><img class="rounded-circle" src="/assets/logos/icon1.jpg" width="90px" alt=""></a><p><br>Check-Up <br>Ind Alimentaria</p></div>
+            <div class="col d-lg-none"><a href="/html/Hombres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 10H40.png" width="90px" alt=""></a></div>
+            <div class="col d-lg-none"><a href="/html/mujeres40.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 11M40.png" width="90px" alt=""></a></div>
+            <div class="col d-lg-none"><a href="/html/indAlimentaria.html"><img class="rounded-circle"
+                        src="/assets/icons/Recurso 9ALIMEN.png" width="90px" alt=""></a></div>
         </div>
     </div>
     <!-- Fin iconos -->
@@ -104,18 +119,18 @@
 
     <!-- Carrousel -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner ">
+        <div class="carousel-inner d-none d-lg-block">
             <div class="carousel-item active">
-                <a href="/html/indAlimentaria.html"><img src="/assets/logos/286324223_512718440392064_813066610325100455_n.jpg" class="d-block w-100"
-                    alt="..."></a>
+                <img src="/assets/logos/286324223_512718440392064_813066610325100455_n.jpg" class="d-block w-100"
+                    alt="...">
             </div>
             <div class="carousel-item">
-                <a href="/html/Hombres40.html"><img src="/assets/logos/286510614_512648880399020_7149216710487146454_n.jpg" class="d-block w-100"
-                    alt="..."></a>
+                <img src="/assets/logos/286510614_512648880399020_7149216710487146454_n.jpg" class="d-block w-100"
+                    alt="...">
             </div>
             <div class="carousel-item">
-                <a href="/html/mujeres40.html"><img src="/assets/logos/287815805_519287203068521_6181132342343650260_n.jpg" class="d-block w-100"
-                    alt="..."></a>
+                <img src="/assets/logos/287815805_519287203068521_6181132342343650260_n.jpg" class="d-block w-100"
+                    alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -142,185 +157,207 @@
 
 
     <center>
-    <div class="container-lg ">
+        <div class="container-lg ">
+            <div class="row">
+
+                <!-- PRIMERA CARD -->
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/ubicaciones/avmexico.png" class="card-img-top"
+                            alt="Mediclar Avenida México">
+                        <div class="card-body">
+                            <h5 class="card-title">Mediclar Avenida México</h5>
+                            <button type="button" class="btn btn-outline-danger btn-block"> Ver Ubicación</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1"></div>
+
+                <br>
+                <br>
+                <br>
+
+                <!-- SEGUNDA CARD -->
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/ubicaciones/loscabos.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mediclar Los Cabos</h5>
+                            <button type="button" class="btn btn-outline-danger btn-block"> Ver Ubicación</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1"></div>
+
+                <br>
+                <br>
+                <br>
+
+
+                <!-- TERCERA CARD -->
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/ubicaciones/puertovallarta.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mediclar Puerto Vallarta</h5>
+                            <div class="container-fluid">
+                                <button type="button" class="btn btn-outline-danger btn-block"> Ver Ubicación</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </center>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- SEGUNDA LÍNEA DE CARDS -->
+
+    <div class="container-lg">
         <div class="row">
 
             <!-- PRIMERA CARD -->
 
-            <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="col-3 d-none d-lg-block">
                 <div class="card" style="width: 18rem;">
-                    <img src="../assets/ubicaciones/avmexico.png" class="card-img-top" alt="Mediclar Avenida México">
+                    <img src="../assets/ubicaciones/laroma.png" class="card-img-top" alt="La Roma CDMX">
                     <div class="card-body">
-                        <h5 class="card-title">Mediclar Avenida México</h5>
-                        <button type="button" class="btn btn-outline-danger btn-block"><a href="https://goo.gl/maps/SzWQKGMMYhLU3C8d6" target="_blank">Ver Ubicación</a> </button>
+                        <h5 class="card-title">Mediclar La Roma CDMX</h5>
+                        <button type="button" class="btn btn-outline-danger btn-block"> Ver Ubicación</button>
                     </div>
                 </div>
             </div>
 
-            <div class="col-1"></div>
-
-            <br>
-            <br>
-            <br>
+            <div class="col-1 d-none d-lg-block"></div>
 
             <!-- SEGUNDA CARD -->
 
-            <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="col-3 d-none d-lg-block">
                 <div class="card" style="width: 18rem;">
-                    <img src="../assets/ubicaciones/loscabos.png" class="card-img-top" alt="...">
+                    <img src="../assets/ubicaciones/monterrey.png" class="card-img-top" alt="Monterrey">
                     <div class="card-body">
-                        <h5 class="card-title">Mediclar Los Cabos</h5>
-                        <button type="button" class="btn btn-outline-danger btn-block"><a href="https://goo.gl/maps/QFfCx7MffnLv39PJ7" target="_blank"> Ver Ubicación</a></button>
+                        <h5 class="card-title">Mediclar Monterrey</h5>
+                        <br>
+                        <button type="button" class="btn btn-outline-danger btn-block"> Ver Ubicación</button>
                     </div>
                 </div>
             </div>
 
-            <div class="col-1"></div>
-
-            <br>
-            <br>
-            <br>
+            <div class="col-1 d-none d-lg-block"></div>
 
 
             <!-- TERCERA CARD -->
 
-            <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="col-3 d-none d-lg-block">
                 <div class="card" style="width: 18rem;">
-                    <img src="../assets/ubicaciones/puertovallarta.png" class="card-img-top" alt="...">
+                    <img src="../assets/ubicaciones/avpatria.png" class="card-img-top" alt="Avenida Patria">
                     <div class="card-body">
-                        <h5 class="card-title">Mediclar Puerto Vallarta</h5>
-                        <div class="container-fluid">
-                        <button type="button" class="btn btn-outline-danger btn-block"> <a href="https://goo.gl/maps/Jr64JQyPAzYwbvMH6" target="_blank"> Ver Ubicación</a></button>
-                    </div>
+                        <h5 class="card-title">Mediclar Avenida Patria</h5>
+                        <button type="button" class="btn btn-outline-danger btn-block"> Ver Ubicación</button>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
-</center>
 
     <br>
     <br>
     <br>
 
-        <!-- SEGUNDA LÍNEA DE CARDS -->
-
-        <div class="container-lg">
-            <div class="row">
-    
-                <!-- PRIMERA CARD -->
-    
-                <div class="col-3 d-none d-lg-block">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../assets/ubicaciones/laroma.png" class="card-img-top" alt="La Roma CDMX">
-                        <div class="card-body">
-                            <h5 class="card-title">Mediclar La Roma CDMX</h5>
-                            <button type="button" class="btn btn-outline-danger btn-block"> <a href="https://goo.gl/maps/2g4U6tRnuNajYSE48" target="_blank"> Ver Ubicación</a></button>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-1 d-none d-lg-block"></div>
-    
-                <!-- SEGUNDA CARD -->
-    
-                <div class="col-3 d-none d-lg-block">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../assets/ubicaciones/monterrey.png" class="card-img-top" alt="Monterrey">
-                        <div class="card-body">
-                            <h5 class="card-title">Mediclar Monterrey</h5>
-                            <br>
-                            <button type="button" class="btn btn-outline-danger btn-block"> <a href="https://goo.gl/maps/QFBTjwKrX9gS1WK68" target="_blank"> Ver Ubicación</a></button>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-1 d-none d-lg-block"></div>
-    
-    
-                <!-- TERCERA CARD -->
-    
-                <div class="col-3 d-none d-lg-block">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../assets/ubicaciones/avpatria.png" class="card-img-top" alt="Avenida Patria">
-                        <div class="card-body">
-                            <h5 class="card-title">Mediclar Avenida Patria</h5>
-                            <button type="button" class="btn btn-outline-danger btn-block"><a href="https://goo.gl/maps/GxW4sh6FddUNdLh39" target="_blank"> Ver Ubicación</a></button>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-sm">
+        <center>
+        <div class="row justify-content-center">
+            <div class="col-4"></div>
+            <div class="d-sm-block d-md-block d-lg-none ">
+            <button type="button" class="btn buttondrop">Mostrar Más</button>
             </div>
+            <div class="col-4"></div>
         </div>
-    
-        <br>
-        <br>
-        <br>
+    </center>
+    </div>
 
-        <!-- footer -->
+    <br>
+    <br>
+    <br>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+
     <!-- footer -->
     <footer id="footer" class="text-light" style="background-color:#9f2180 ;">
         <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div>
-                <br>
-                <h3><img src="/assets/logos/MEDICLAR BLANCO (1).png" width="250px" alt=""></h3>
-                <br>
-                <div class="contenedor-iconos">
-                    <a href="https://api.whatsapp.com/send?phone=5213315203000&text=Hola+quiero+info" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://www.instagram.com/mediclar_lab/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/mediclarlab" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div>
+                        <br>
+                        <h3><img src="/assets/logos/MEDICLAR BLANCO (1).png" width="250px" alt=""></h3>
+                        <br>
+                        <div class="contenedor-iconos">
+                            <a href="https://api.whatsapp.com/send?phone=5213315203000&text=Hola+quiero+info"
+                                target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/mediclar_lab/?hl=es" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/mediclarlab" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
-              <div class="my-4">
-                <h4>Sucursales</h4>
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="/index.html" class="text-decoration-none">Home</a>
-                  </li>
-                  <li>
-                    <a href="/html/contacto.html" class="text-decoration-none">About Us</a>
-                  </li>
-                  <li>
-                    <a href="/html/servicios.html" class="text-decoration-none">Service</a>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-4">
-              <div>
-                <h4>Servicios</h4>
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="#" class="text-decoration-none ">servicio a empresas</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-decoration-none">servicio a domicilio</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div>
-                <div>
-                  <label for="Newsletter" class="form-label  my-4">Agenda tu cita</label>
-                  <input type="text" class="form-control" Placeholder="Correo electronico">
-                  <button class="btn btn-dark mt-3">Agendar</button>
+                <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+                    <div class="my-4">
+                        <h4>Sucursales</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="/index.html" class="text-decoration-none">Home</a>
+                            </li>
+                            <li>
+                                <a href="/html/contacto.html" class="text-decoration-none">About Us</a>
+                            </li>
+                            <li>
+                                <a href="/html/servicios.html" class="text-decoration-none">Service</a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
-              </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 my-4">
+                    <div>
+                        <h4>Servicios</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-decoration-none ">servicio a empresas</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none">servicio a domicilio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div>
+                        <div>
+                            <label for="Newsletter" class="form-label  my-4">Agenda tu cita</label>
+                            <input type="text" class="form-control" Placeholder="Correo electronico">
+                            <button class="btn btn-dark mt-3">Agendar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="d-flex justify-content-center">
-            <div class="copyright">
-              <p>Developed and maintained by Eliud (:</p>
+            <div class="d-flex justify-content-center">
+                <div class="copyright">
+                    <p>Developed and maintained by Eliud (:</p>
+                </div>
             </div>
-          </div>
         </div>
-      </footer>
+    </footer>
+
+    <!-- --------------------------------------------------------------------------------------------------- -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
