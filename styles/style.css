@@ -19,11 +19,24 @@ body {
     max-height: 39rem;
 }
 #search {
-    border-radius: 10px;
+    border-radius: 20px;
     border-color: #9f2180;
 
 }
 
 .btn-bd-primary {
 
+  }
+  .parrafos span {
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #9f2180;
+    font-weight: bold;
+  }
+  .parrafos {
+    text-align: justify;
+  }
+  .costos {
+    text-align: center;
+    color: #9f2180;
+    font-weight: bold;
   }
